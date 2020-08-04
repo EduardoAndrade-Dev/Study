@@ -2,6 +2,7 @@
 using CrudEntityFramework.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
@@ -21,8 +22,22 @@ namespace CrudEntityFramework.Controllers
             return View(await _context.Usuario.ToListAsync());
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Create()
         {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Usuario.Add(usuario);
+                await _context.SaveChangesAsync().ConfigureAwait(false);
+                return RedirectToAction(nameof(Index));
+            }
             return View();
         }
 
