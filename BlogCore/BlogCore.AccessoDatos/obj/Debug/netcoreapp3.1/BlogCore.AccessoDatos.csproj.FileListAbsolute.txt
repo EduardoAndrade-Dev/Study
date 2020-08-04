@@ -1,0 +1,9 @@
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccessoDatos.deps.json
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccessoDatos.dll
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.AssemblyInfoInputs.cache
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.AssemblyInfo.cs
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.csprojAssemblyReference.cache
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.AccessoDatos.pdb
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.dll
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.pdb
