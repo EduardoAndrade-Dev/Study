@@ -7,3 +7,8 @@ C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.csproj.CoreCompileInputs.cache
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.dll
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.pdb
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.dll
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\bin\Debug\netcoreapp3.1\BlogCore.Utilidades.pdb
+C:\Users\eduardo.andrade\Documents\Eduardo\Study\BlogCore\BlogCore.AccessoDatos\obj\Debug\netcoreapp3.1\BlogCore.AccessoDatos.csproj.CopyComplete

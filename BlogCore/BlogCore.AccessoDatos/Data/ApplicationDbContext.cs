@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlogCore.Data
+namespace BlogCore.AccessoDatos
 {
     public class ApplicationDbContext : IdentityDbContext
     {
