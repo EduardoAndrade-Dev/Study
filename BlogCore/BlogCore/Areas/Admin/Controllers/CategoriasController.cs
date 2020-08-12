@@ -22,6 +22,12 @@ namespace BlogCore.Areas.Admin.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         #region LLAMADAS A LA API
         public IActionResult GetAll()
         {
