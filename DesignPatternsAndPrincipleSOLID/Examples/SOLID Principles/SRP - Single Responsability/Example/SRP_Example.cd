@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Examples.SOLID_Principles.SRP___Single_Responsability.Example.Patient">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\SRP - Single Responsability\Example\Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles.SRP___Single_Responsability.Example.Appointment">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQA=</HashCode>
+      <FileName>SOLID Principles\SRP - Single Responsability\Example\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles.SRP___Single_Responsability.Example.AppointmentService">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\SRP - Single Responsability\Example\AppointmentService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles.SRP___Single_Responsability.Example.AppointmentServiceValidator">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\SRP - Single Responsability\Example\AppointmentServiceValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles.SRP___Single_Responsability.Example.ValidateResult">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\SRP - Single Responsability\Example\ValidateResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
