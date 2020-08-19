@@ -1,6 +1,10 @@
-﻿using Examples.SOLID_Principles.SRP___Single_Responsability.Example;
+﻿using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
+using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
+using Examples.SOLID_Principles.SRP___Single_Responsability.Example;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Exercise;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using static System.Console;
 
 namespace Program
@@ -10,9 +14,13 @@ namespace Program
         static void Main(string[] args)
         {
             //SRPExample();
-            SRPExercise();
+            //SRPExercise();
+            //OCPExample();
+            OCPExercise();
         }
-
+        #region SOLID PRINCIPLE
+        
+        #region SRP Principle
         private static void SRPExample()
         {
             var appt = new Appointment
@@ -39,5 +47,47 @@ namespace Program
             var saver = new FileSaver();
             saver.SaveToFile(@"Reports", "WorkReport.txt", report);
         }
+        #endregion
+        
+        #region OCP Principle
+        private static void OCPExample()
+        {
+            List<IApplicant> persons = new List<IApplicant>()
+            {
+                new Person{FirstName = "Eduardo", LastName="Andrade"},
+                new Doctor{FirstName = "Jacqueline", LastName="Silva"},
+                new Nurse{FirstName = "Manuela", LastName="Silva"}
+            };
+
+            List<Staff> staffs = new List<Staff>();
+            foreach (var person in persons)
+            {
+                staffs.Add(person.Processor.Create(person));
+            }
+
+            WriteLine(string.Join(Environment.NewLine, staffs.Select(x => $"Bienvenido: {x.FirstName}, {x.LastName}, Email: {x.Email}")));
+        }
+
+        private static void OCPExercise()
+        {
+            List <IShape> shapes = new List<IShape>()
+            {
+                new Rectangle(){Height=10, Width=20},
+                new Circle(){Radius=50}
+
+
+            };
+            AreaCalculator areaCalculator = new AreaCalculator();
+            WriteLine(areaCalculator.Area(shapes));
+        }
+
+
+        #endregion
+
+        #endregion
+
+
+
+
     }
 }

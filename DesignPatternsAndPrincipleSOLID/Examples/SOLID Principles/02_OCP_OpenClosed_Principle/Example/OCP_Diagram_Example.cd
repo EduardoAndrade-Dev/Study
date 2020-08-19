@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.AccountDoctor" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\AccountDoctor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.AccountNurse" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\AccountNurse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.AccountService" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\AccountService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.365" Collapsed="true" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.Person" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAg=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.Staff">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.Doctor" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAg=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\Doctor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.Nurse" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAg=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\Nurse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.IAccountService" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\IAccountService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example.IApplicant" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAg=</HashCode>
+      <FileName>SOLID Principles\02_OCP_OpenClosed_Principle\Example\IApplicant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
