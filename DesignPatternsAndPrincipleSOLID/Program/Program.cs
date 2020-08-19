@@ -1,5 +1,7 @@
 ﻿using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
+using Examples.SOLID_Principles._03_LSP_Principle.Example;
+using Examples.SOLID_Principles._03_LSP_Principle.Exercise;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Example;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Exercise;
 using System;
@@ -16,7 +18,11 @@ namespace Program
             //SRPExample();
             //SRPExercise();
             //OCPExample();
-            OCPExercise();
+            //OCPExercise();
+            //LCPExample();
+            LCPExercise();
+
+
         }
         #region SOLID PRINCIPLE
         
@@ -81,6 +87,31 @@ namespace Program
             WriteLine(areaCalculator.Area(shapes));
         }
 
+
+        #endregion
+
+        #region LSP Principle
+        public static void LCPExample()
+        {
+            //IPlayerTeam player = new FootballPlayer();
+            Player player = new TennisPlayer();
+            player.FirstName = "Walter";
+            player.LastName = "Montillo";
+            //player.AssignTeam(new Team { Name = "U de Chile" });
+            player.SetCategory(PlayerCategory.Professional);
+
+            WriteLine($"{player.FirstName} {player.LastName} Categoria {player.Category}");
+            ReadLine();
+        }
+
+        public static void LCPExercise()
+        {
+            Bird animal = new Bird();
+            animal.noise = "awww";
+            animal.MakeNoise();
+            animal.Fly();
+            Console.ReadLine();
+        }
 
         #endregion
 
