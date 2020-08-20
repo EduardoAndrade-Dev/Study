@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Examples.SOLID_Principles._05_DIP_Principle.Example.Enumeration">
+    <Position X="2" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Examples.SOLID_Principles._05_DIP_Principle.Example.Enumeration.Gender" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SOLID Principles\05_DIP_Principle\Example\Enumeration.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Examples.SOLID_Principles._05_DIP_Principle.Example.Enumeration.Role" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SOLID Principles\05_DIP_Principle\Example\Enumeration.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\05_DIP_Principle\Example\Enumeration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles._05_DIP_Principle.Example.EmployeeManager" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>SOLID Principles\05_DIP_Principle\Example\EmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Examples.SOLID_Principles._05_DIP_Principle.Example.Employee">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\05_DIP_Principle\Example\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples.SOLID_Principles._05_DIP_Principle.Example.EmployeeSearch">
+    <Position X="6" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\05_DIP_Principle\Example\EmployeeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Examples.SOLID_Principles._05_DIP_Principle.Example.IEmployeeSearcheable">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOLID Principles\05_DIP_Principle\Example\IEmployeeSearcheable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

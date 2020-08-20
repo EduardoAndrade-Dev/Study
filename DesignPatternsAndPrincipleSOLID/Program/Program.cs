@@ -4,11 +4,13 @@ using Examples.SOLID_Principles._03_LSP_Principle.Example;
 using Examples.SOLID_Principles._03_LSP_Principle.Exercise;
 using Examples.SOLID_Principles._04_ISP_Principle.Example;
 using Examples.SOLID_Principles._04_ISP_Principle.Exercise;
+using Examples.SOLID_Principles._05_DIP_Principle.Example;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Example;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Exercise;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using static Examples.SOLID_Principles._05_DIP_Principle.Example.Enumeration;
 using static System.Console;
 
 namespace Program
@@ -23,7 +25,8 @@ namespace Program
             //OCPExercise();
             //LCPExample();
             //LCPExercise();
-            ISPExample();
+            //ISPExample();
+            DIPExample();
         }
         #region SOLID PRINCIPLE
         
@@ -135,10 +138,29 @@ namespace Program
         }
         #endregion
 
+        #region DIP Principle
+        private static void DIPExample()
+        {
+            List<Employee> employees = new List<Employee>
+            {
+                new Employee { Name = "Rodrigo", Gender = Gender.Male, Role = Role.Developer },
+                new Employee { Name = "Robert", Gender = Gender.Male, Role = Role.Executive },
+                new Employee { Name = "Martin", Gender = Gender.Male, Role = Role.Executive },
+                new Employee { Name = "Vanessa", Gender = Gender.Female, Role = Role.Executive }
+            };
+            var employeManager = new EmployeeManager();
+            foreach (var employee in employees)
+                employeManager.Save(employee);
+
+            var search = new EmployeeSearch(employeManager);
+
+            Console.WriteLine($" Cantidad de Empleados Ejecutivos y de genero Masculino:  {search.GetMaleExecutives()}");
+            Console.ReadLine();
+
+        }
+
         #endregion
 
-
-
-
+        #endregion
     }
 }
