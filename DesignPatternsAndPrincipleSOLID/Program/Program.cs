@@ -2,6 +2,8 @@
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
 using Examples.SOLID_Principles._03_LSP_Principle.Example;
 using Examples.SOLID_Principles._03_LSP_Principle.Exercise;
+using Examples.SOLID_Principles._04_ISP_Principle.Example;
+using Examples.SOLID_Principles._04_ISP_Principle.Exercise;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Example;
 using Examples.SOLID_Principles.SRP___Single_Responsability.Exercise;
 using System;
@@ -20,9 +22,8 @@ namespace Program
             //OCPExample();
             //OCPExercise();
             //LCPExample();
-            LCPExercise();
-
-
+            //LCPExercise();
+            ISPExample();
         }
         #region SOLID PRINCIPLE
         
@@ -113,6 +114,25 @@ namespace Program
             Console.ReadLine();
         }
 
+        #endregion
+
+        #region ISP Principle
+        private static void ISPExample()
+        {
+            HPLaserJetPrinter hpPrint = new HPLaserJetPrinter();
+            hpPrint.Fax("Pasando fax");
+            hpPrint.Scan("Escaneando");
+            hpPrint.Print("Imprimiendo");
+
+            ReadKey();
+        }
+
+        private static void ISPExercise()
+        {
+            Car vehicle = new Car();
+            Bicycle bicycle = new Bicycle();
+
+        }
         #endregion
 
         #endregion

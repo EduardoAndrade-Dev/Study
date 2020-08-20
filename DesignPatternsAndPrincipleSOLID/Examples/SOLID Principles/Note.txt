@@ -1,0 +1,9 @@
+﻿Principios SOLID
+
+Son 5 principios para desarrollar programas legibles y mantenibles.
+
+S: Principio de responsabilidad unica
+O: Principio de abierto y cerrado: abierto para nuevas extensiones y cerradas para su modificación
+L: Principio de substituición : una subclase debe ser substituible por su superclase
+I: Principio de segregación de interfaz: No debemos tener interfazes muy grandes, pues podemos tener clases que no necesitan los metodos de la interfaz.
+D Principio de inversión de dependencias:
