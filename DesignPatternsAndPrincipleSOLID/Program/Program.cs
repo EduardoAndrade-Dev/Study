@@ -1,4 +1,5 @@
-﻿using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
+﻿using Examples._02_DesignPatterns._01_CREACIONAL_Builder;
+using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
 using Examples.SOLID_Principles._03_LSP_Principle.Example;
 using Examples.SOLID_Principles._03_LSP_Principle.Exercise;
@@ -26,7 +27,8 @@ namespace Program
             //LCPExample();
             //LCPExercise();
             //ISPExample();
-            DIPExample();
+            //DIPExample();
+            Builder();
         }
         #region SOLID PRINCIPLE
         
@@ -161,6 +163,20 @@ namespace Program
 
         #endregion
 
+        #endregion
+
+        #region DesignPatterns
+        
+        #region Builder
+        private static void Builder()
+        {
+            var sandwich = new SandwichAssembly(new CheeseBurger());
+            sandwich.Assembly();
+            WriteLine($"{sandwich.GetSandwich.Bread} {sandwich.GetSandwich.Cheese} {sandwich.GetSandwich.Condiments} {sandwich.GetSandwich.Protein} {sandwich.GetSandwich.Veggies}");
+            ReadLine();
+        }
+        #endregion
+        
         #endregion
     }
 }

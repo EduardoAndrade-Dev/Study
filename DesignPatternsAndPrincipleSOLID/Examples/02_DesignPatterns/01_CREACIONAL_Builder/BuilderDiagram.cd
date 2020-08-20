@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Examples._02_DesignPatterns._01_CREACIONAL_Builder.SandwichBuilder">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAQAAAAAAAQQAAABAAAAAAgAAAAEAAAAA=</HashCode>
+      <FileName>02_DesignPatterns\01_CREACIONAL_Builder\SandwichBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples._02_DesignPatterns._01_CREACIONAL_Builder.Sandwich">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAYAAAAAIAAAAAAACAAAAA=</HashCode>
+      <FileName>02_DesignPatterns\01_CREACIONAL_Builder\Sandwich.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples._02_DesignPatterns._01_CREACIONAL_Builder.CheeseBurger">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAQAAAABAAAAAAgAAAAEAAAAA=</HashCode>
+      <FileName>02_DesignPatterns\01_CREACIONAL_Builder\CheeseBurger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Examples._02_DesignPatterns._01_CREACIONAL_Builder.SandwichAssembly">
+    <Position X="0.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAAIAAAA=</HashCode>
+      <FileName>02_DesignPatterns\01_CREACIONAL_Builder\SandwichAssembly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
