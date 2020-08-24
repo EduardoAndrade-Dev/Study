@@ -1,4 +1,5 @@
 ﻿using Examples._02_DesignPatterns._01_CREACIONAL_Builder;
+using Examples._02_DesignPatterns._01_CREACIONAL_Builder_FluentBuilder;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
 using Examples.SOLID_Principles._03_LSP_Principle.Example;
@@ -28,7 +29,8 @@ namespace Program
             //LCPExercise();
             //ISPExample();
             //DIPExample();
-            Builder();
+            //Builder();
+            FluentBuilder();
         }
         #region SOLID PRINCIPLE
         
@@ -175,6 +177,18 @@ namespace Program
             WriteLine($"{sandwich.GetSandwich.Bread} {sandwich.GetSandwich.Cheese} {sandwich.GetSandwich.Condiments} {sandwich.GetSandwich.Protein} {sandwich.GetSandwich.Veggies}");
             ReadLine();
         }
+
+        //FLUENT BUILDER
+        private static void FluentBuilder()
+        {
+            var fluentBuilder = new SandwichFluentBuilder()
+                .WithMeat()
+                .WithCheeseChedar()
+                .WithMayonesa()
+                .WithMostaza();
+
+        }
+
         #endregion
         
         #endregion
