@@ -1,4 +1,5 @@
 ﻿using Examples._02_DesignPatterns._01_CREACIONAL_Builder;
+using Examples._02_DesignPatterns._01_CREACIONAL_Builder.Exercise;
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder_FluentBuilder;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
@@ -30,7 +31,8 @@ namespace Program
             //ISPExample();
             //DIPExample();
             //Builder();
-            FluentBuilder();
+            // FluentBuilder();
+            FluentBuilderExercise();
         }
         #region SOLID PRINCIPLE
         
@@ -136,7 +138,7 @@ namespace Program
 
         private static void ISPExercise()
         {
-            Car vehicle = new Car();
+            Examples.SOLID_Principles._04_ISP_Principle.Exercise.Car vehicle = new Examples.SOLID_Principles._04_ISP_Principle.Exercise.Car();
             Bicycle bicycle = new Bicycle();
 
         }
@@ -187,6 +189,18 @@ namespace Program
                 .WithMayonesa()
                 .WithMostaza();
 
+        }
+
+        private static void FluentBuilderExercise()
+        {
+            var car = CarBuilder
+                .CreateNewCar()
+                .AddName("Ford")
+                .AddModel("Focus")
+                .Build();
+
+            WriteLine(car.Message);
+            ReadLine();
         }
 
         #endregion
