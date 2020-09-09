@@ -1,5 +1,6 @@
 ﻿using Examples._02_DesignPatterns._01_CREACIONAL_Builder;
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder.Exercise;
+using Examples._02_DesignPatterns._01_CREACIONAL_Builder.Exercise2;
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder_FluentBuilder;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
@@ -32,7 +33,8 @@ namespace Program
             //DIPExample();
             //Builder();
             // FluentBuilder();
-            FluentBuilderExercise();
+            //FluentBuilderExercise();
+            FluentBuilderExercise2();
         }
         #region SOLID PRINCIPLE
         
@@ -203,8 +205,21 @@ namespace Program
             ReadLine();
         }
 
+        private static void FluentBuilderExercise2()
+        {
+            var header = HeaderBuilder.
+                CreateNewHeader();
+
+            header.AddAgent("src", "alt", "name", "email", "phone", "city");
+            header.AddLogo("src", "alt", "href", "title");
+            header.Build();
+
+            WriteLine(header);
+            ReadLine();
+        }
+
         #endregion
-        
+
         #endregion
     }
 }

@@ -7,3 +7,12 @@ C:\Users\eduardo.andrade\Documents\Eduardo\Study\DesignPatternsAndPrincipleSOLID
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.csproj.CoreCompileInputs.cache
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.dll
 C:\Users\eduardo.andrade\Documents\Eduardo\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.pdb
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.dll
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\obj\Debug\netcoreapp3.1\Examples.pdb
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\bin\Debug\netcoreapp3.1\Examples.deps.json
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\bin\Debug\netcoreapp3.1\Examples.dll
+C:\Users\Usuario\Documents\Eduardo\Study\Study\DesignPatternsAndPrincipleSOLID\Examples\bin\Debug\netcoreapp3.1\Examples.pdb
