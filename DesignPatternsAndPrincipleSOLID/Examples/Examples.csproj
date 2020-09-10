@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="02_DesignPatterns\02_CREACIONAL_Factory\Exercise\" />
+  </ItemGroup>
+
 </Project>

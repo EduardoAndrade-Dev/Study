@@ -2,6 +2,8 @@
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder.Exercise;
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder.Exercise2;
 using Examples._02_DesignPatterns._01_CREACIONAL_Builder_FluentBuilder;
+using Examples._02_DesignPatterns._02_CREACIONAL_Factory.Example;
+using Examples._02_DesignPatterns._02_CREACIONAL_Factory.Example2;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Example;
 using Examples.SOLID_Principles._02_OCP_OpenClosed_Principle.Exercise;
 using Examples.SOLID_Principles._03_LSP_Principle.Example;
@@ -34,10 +36,16 @@ namespace Program
             //Builder();
             // FluentBuilder();
             //FluentBuilderExercise();
-            FluentBuilderExercise2();
+            //FluentBuilderExercise2();*************** Real
+            //FactoryExample1();
+            FactoryExample2();
         }
-        #region SOLID PRINCIPLE
+
         
+
+
+        #region SOLID PRINCIPLE
+
         #region SRP Principle
         private static void SRPExample()
         {
@@ -215,6 +223,27 @@ namespace Program
             header.Build();
 
             WriteLine(header);
+            ReadLine();
+        }
+
+        #endregion
+
+        #region Factory
+
+        private static void FactoryExample1()
+        {
+            var user = User.Factory.CreateWithDefaultCountry("Rodrigo", "rodrigo@gmail.com");
+
+            WriteLine($"Usuario: {user.Name} Email: {user.Email}, Pais: {user.Country}");
+            ReadLine();
+        }
+
+
+        private static void FactoryExample2()
+        {
+            PizzaStore nyStore = new NYPizzaStore();
+            Pizza pizza = nyStore.OrderPizza(TypeOfPizza.Pepperoni);
+            WriteLine($"Pizza {pizza.Name} lista para ser entregada a Rodrigo");
             ReadLine();
         }
 
