@@ -1,4 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-tarjetas',
@@ -8,7 +11,21 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TarjetasComponent implements OnInit {
 
   @Input() items: any[] = [];
-  constructor() { }
+  constructor(private router: Router) { }
+
+  VerArtista(item: any){
+    let artistaid;
+
+    if (item.type === 'artist')
+    {
+      artistaid = item.id;
+    }
+    else{
+      artistaid = item.artists[0].id;
+    }
+    this.router.navigate(['/artist', artistaid]);
+
+  }
 
   ngOnInit(): void {
   }
